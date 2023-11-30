@@ -1,0 +1,32 @@
+.container {
+    background-image: linear-gradient(to bottom right, darkcyan, darkslateblue);
+}
+
+form {
+    background-image: linear-gradient(to bottom right, silver, lightslategray);
+}
+
+input[type="text"], input[type="password"] {
+    border: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid dodgerblue;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: blue;
+}
+
+button {
+    background-image: linear-gradient(dodgerblue, deepskyblue, dodgerblue);
+}
+
+button:hover {
+    background-image: linear-gradient(rgba(31, 143, 255, 0.8), rgba(0, 191, 255, 0.8), rgba(31, 143, 255, 0.8));
+}
+
+button:active {
+    border: dodgerblue;
+    background-image: linear-gradient(rgba(31, 143, 255, 0.8), rgba(0, 191, 255, 0.8), rgba(31, 143, 255, 0.8));
+}
